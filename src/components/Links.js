@@ -40,12 +40,18 @@ function Links() {
       id: "book__design",
       title:"Design Books"
     },
+    {
+      name: "Contact Me",
+      url: "/contact",
+      id: "contact",
+      title: "Contact Me"
+    },
   ];
 
   return (
     <PointerStyle>
     {
-    links.map((val)=><a href={val.url} id={val.id} title={val.title} className="btn__link">{val.name}</a>
+    links.map((link)=><a href={link.url} id={link.id} title={link.title} className="btn__link">{link.name}</a>
       )
     }
     </PointerStyle>
