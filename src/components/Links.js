@@ -42,7 +42,7 @@ function Links() {
     },
     {
       name: "Contact Me",
-      url: "https://eunice-linked.netlify.app/contact",
+      url: "contact",
       id: "contact",
       title: "Contact Me"
     },
